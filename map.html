@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>高雄旅遊網</title>
+  <link type="text/css" rel="stylesheet" href="css/all.css"/>
+</head>
+<body>
+  <div id="header">
+    <div class="banner"> 
+      <h1 class="map_tip">點選地標即可顯示更詳細的旅遊資訊</h1>
+      <select name="area" id="s-area"></select>
+    </div>
+  </div>
+  <div class="map_wrap">
+    <div class="content">
+      <div id="map"> </div>
+    </div>
+    <div id="gotop"><img src="/images/btn_goTop.png"/></div>
+  </div>
+  <div class="footer">
+    <p>高雄旅遊網</p>
+    <p>資料來源：高雄市政府</p>
+  </div>
+</body>
+<script src="js/map.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRv6lTNinagwU9gmkd7_8bE4m_HQwMUwk&amp;callback=initMap" async="" defer=""></script>
+<script src="js/gototop.js"></script>
