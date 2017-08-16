@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+html(lang="zh")
+head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title 高雄旅遊網
+    link(type="text/css",rel="stylesheet",href="css/all.css")
+body
+   div#header
+    div.banner 
+     h1.map_tip 點選地標即可顯示更詳細的旅遊資訊
+     select(name="area")#s-area
+   div.map_wrap
+    div.content
+     div#map 
+    div#gotop
+     img(src='/images/btn_goTop.png')
+   div.footer
+    p 高雄旅遊網
+    p 資料來源：高雄市政府
+script(src='js/map.js') 
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js')
+script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCRv6lTNinagwU9gmkd7_8bE4m_HQwMUwk&callback=initMap', async='', defer='')
+script(src='js/gototop.js')
+  
+    
