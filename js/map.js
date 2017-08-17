@@ -3,7 +3,7 @@
 var area = document.getElementById('s-area');
 //撈取資料
 var data = [];
-var url = "https://github.com/laingyilee/travelinfo/blob/master/data.json";
+var url = "https://laingyilee.github.io/travelinfo/js/data.json";
 var xhr = new XMLHttpRequest();
 var content;
 var len;
