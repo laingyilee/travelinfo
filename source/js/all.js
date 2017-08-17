@@ -5,7 +5,7 @@ var title = document.querySelector('.area-title');
 
 //撈取資料
 var data = [];
-var url ="http://data.kcg.gov.tw/api/action/datastore_search?resource_id=92290ee5-6e61-456f-80c0-249eae2fcc97";
+var url ="https://github.com/laingyilee/travelinfo/blob/master/data.json";
 var xhr = new XMLHttpRequest();
 var content;
 var len;
@@ -73,6 +73,8 @@ function updataListb(e){
 };
 
 area.addEventListener('change',updataList,false);
+//http://data.kcg.gov.tw/api/action/datastore_search?resource_id=92290ee5-6e61-456f-80c0-249eae2fcc97
+
 
 
 
