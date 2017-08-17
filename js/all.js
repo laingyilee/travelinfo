@@ -7,7 +7,7 @@ var title = document.querySelector('.area-title');
 
 //撈取資料
 var data = [];
-var url = "https://laingyilee.github.io/travelinfo/js/data.json";
+var url = "https://laingyilee.github.io/datasave/data.json";
 var xhr = new XMLHttpRequest();
 var content;
 var len;
