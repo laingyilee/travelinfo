@@ -70,6 +70,10 @@ gulp.task('watch', function () {
   gulp.watch('./source/js/**/*.js', ['babel']);
 });
 
+gulp.task('deploy', function() {
+  return gulp.src('./public/**/*')
+    .pipe($.ghPages());
+});
 
 gulp.task('build', gulpSequence('clean','imagemin','jade','sass','babel'));//發布流程順序
 
